@@ -30,7 +30,7 @@ hr{
 }
 
 .filler_pic{
-    width: -webkit-fill-available;
+    text-align: center;
     max-width: 80%;
     height: 400px;
 }
