@@ -1,17 +1,17 @@
-header{
+header {
     display: flex;
     flex-wrap: wrap;
 }
 
-.header_me{
+.header_me {
     padding-left: 20px;
 }
 
-.header_title{
+.header_title {
 	font-size: 3em;
 }
 
-hr{
+hr {
 	display: block;
     unicode-bidi: isolate;
     -webkit-margin-before: 0.5em;
@@ -24,18 +24,18 @@ hr{
     border-color: #7d97ad;
 }
 
-.body{
+.body {
     display: flex;
     flex-wrap: wrap;
 }
 
-.filler_pic{
-    text-align: center;
+.filler_pic {
+    width: -webkit-fill-available;
     max-width: 80%;
-    height: 400px;
+    height: auto;
 }
 
-h2{
+h2 {
     display: block;
     font-size: 1.5em;
     -webkit-margin-before: 0.83em;
@@ -46,38 +46,42 @@ h2{
     color: #7d97ad;
 }
 
-h3{
+h3 {
     text-align: center; 
 }
 
-.Project2{
+.Project2 {
     margin-left: auto;
     margin-right: auto;
     min-width: 33%;
 }
 
-.Project3{
+.Project3 {
     margin-left: auto;
     margin-right: auto;
     min-width: 33%;
 }
 
-.Project4{ 
+.Project4 { 
     margin-left: auto;
     margin-right: auto;
     min-width: 33%;
 }
 
-.dota-pic{
-    width: 240px;
-    height: 210px;
+.movie-pic {
+    height: auto;
 }
 
-.clipboard-pic{
-    width: 240px;
-    height: 210px;
+.dota-pic {
+    max-width: 240px;
+    height: auto;
 }
 
-p{
+.clipboard-pic {
+    max-width: 240px;
+    height: auto;
+}
+
+p {
     text-align: center;
 }
